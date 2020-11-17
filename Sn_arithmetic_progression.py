@@ -7,7 +7,11 @@ Created on Mon Nov 16 14:08:24 2020
 #!/usr/bin/python3
 
 str = "等差数列前n项和计算器"
-print (str.center(80, '*'))
+print (str.center(80, '*'),'\n')
+str = "Designed by Dr.Tong Li, School of Medicine, Tsinghua University, Beijing, China"
+print (str.center(80, ' '),'\n')
+str = "*"
+print (str.center(80, '*'),'\n')
 
 b = a = int(input("请输入等差数列的首项："))
 d = int(input("请输入等差数列的公差："))
