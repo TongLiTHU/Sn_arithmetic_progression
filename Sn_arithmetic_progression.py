@@ -23,7 +23,8 @@ while counter <= n:
     sum = sum + a
     a = a + d
     counter += 1
-    
+
+print('\n')     
 str = "计算结果"
 print (str.center(80, '*'))
 
